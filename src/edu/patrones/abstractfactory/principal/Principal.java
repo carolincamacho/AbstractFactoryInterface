@@ -3,7 +3,7 @@ package edu.patrones.abstractfactory.principal;
 /**
  *
  * @author Abstract Team. Cliente principal, petición de helados a través de
- * instancias de fábricas de helados
+ * instancias de fábricas de helados.
  */
 import edu.patrones.abstractfactory.fabricas.*;
 import java.util.Scanner;
