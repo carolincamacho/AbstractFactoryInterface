@@ -2,8 +2,8 @@ package edu.patrones.abstractfactory.principal;
 
 /**
  *
- * @author Abstract Team. Cliente principal, peticiÃ³n de helados a travÃ©s de
- * instancias de fÃ¡bricas de helados
+ * @author Abstract Team. Cliente principal, petición de helados a través de
+ * instancias de fábricas de helados
  */
 import edu.patrones.abstractfactory.fabricas.*;
 import java.util.Scanner;
@@ -20,7 +20,7 @@ public class Principal {
         boolean iniciar = true;
 
         String cad = "", salida = "";
-        cad += "Ingrese la opciÃ³n correspondiente para obtener el Helado\n";
+        cad += "Ingrese la opción correspondiente para obtener el Helado\n";
         cad += "1. Sundae\n";
         cad += "2. Cono\n";
         cad += "3. Paleta\n\n";
@@ -54,7 +54,7 @@ public class Principal {
                 iniciar = true;
 
             } else if (!salida.toUpperCase().equals("S") || !salida.toUpperCase().equals("N")) {
-                System.out.println("No es una opciÃ³n vÃ¡lida");
+                System.out.println("No es una opción válida");
                 iniciar = true;
             }
 
